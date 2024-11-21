@@ -1,0 +1,23 @@
+{
+  "name": "belajar-mocking-stubbing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "axios": "^1.7.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
